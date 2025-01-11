@@ -15,7 +15,7 @@ from torchvision.ops import MultiScaleRoIAlign
 from torchvision.models.detection import maskrcnn_resnet50_fpn
 
 
-train_dir = "/home/jonas/Documents/Learning/python_dev/image_recognition/data/train"
+train_dir = "image_recognition/data/train"
 
 
 anchor_generator = AnchorGenerator(
